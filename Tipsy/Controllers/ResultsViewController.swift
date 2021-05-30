@@ -24,8 +24,8 @@ class ResultsViewController: UIViewController {
     }
     
 
-    @IBAction func recalculatePressed(_ sender: UIButton) {
-    }
+    @IBAction func recalculatePressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)    }
     /*
     // MARK: - Navigation
 
